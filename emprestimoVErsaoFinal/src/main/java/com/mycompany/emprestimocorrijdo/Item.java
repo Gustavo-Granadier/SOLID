@@ -36,7 +36,6 @@ public class Item {
         this.dataDevolucao = data != null ? new Date(data.getTime()) : null;
     }
 
-    // Método simplificado que apenas retorna o prazo do livro
     public int getPrazo() {
         return livro.verPrazo();
     }
