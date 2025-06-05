@@ -14,6 +14,6 @@ import com.mycompany.emprestimocorrijdo.interfaces.ValidacaoLivro;
 public class ValidadorLivro implements ValidacaoLivro {
     @Override
     public boolean isExemplarBiblioteca(Livro livro) {
-        return livro.verificaLivro();
+       return livro.getCodigo() == 3;
     }
 }
