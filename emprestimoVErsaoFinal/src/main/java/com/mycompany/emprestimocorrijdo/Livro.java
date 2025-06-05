@@ -34,10 +34,6 @@ public class Livro implements LivroInterface {
     public Titulo getTitulo() {
         return titulo;
     }
-
-    public boolean verificaLivro() {
-        return this.codigo == 3;
-    }
     	
 }
 
